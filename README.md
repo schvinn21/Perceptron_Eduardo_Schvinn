@@ -1,13 +1,14 @@
-# Análise de Modelos de Classificação em Datasets Misteriosos
+# Implementação do Perceptron
 
-Este repositório contém um estudo sobre modelos de classificação aplicados a bases de dados misteriosas. Foram testados algoritmos como Árvore de Cisão, KNN e MLP para avaliar a eficácia da classificação.
+Este repositório contém a implementação de um modelo Perceptron linear e não linear para classificação de dados.
 
 ## Estrutura do Repositório
 
-- `12.csv`, `14.csv`, etc.: Conjuntos de dados utilizados na análise.
-- `classificacao_bases_formatado.py`: Script Python para processamento e classificação dos datasets.
-- `Análise_de_Modelos_de_Classificação_em_Datasets_misteriosos___Árvore_de_cisão__KNN_e_MLP_.pdf`: Relatório detalhado com os resultados da análise.
-- `.gitattributes`: Configuração de atributos do repositório Git.
+- `perceptron_eduardo_schvinn.py`: Implementação do Perceptron linear.
+- `perceptron_nao_linear_eduardo_schvinn.py`: Implementação do Perceptron não linear.
+- `Perceptron_Eduardo_Schvinn (1).pdf`: Documento explicativo sobre o modelo Perceptron.
+- `README.md`: Instruções e detalhes sobre o projeto.
+- `.gitattributes`: Configurações do repositório Git.
 
 ## Como Utilizar
 
@@ -16,16 +17,18 @@ Este repositório contém um estudo sobre modelos de classificação aplicados a
    ```bash
    pip install -r requirements.txt
    ```
-3. Execute o script de classificação:
+3. Execute um dos scripts para treinar e testar o modelo:
    ```bash
-   python classificacao_bases_formatado.py
+   python perceptron_eduardo_schvinn.py
+   ```
+   ou
+   ```bash
+   python perceptron_nao_linear_eduardo_schvinn.py
    ```
 
-## Algoritmos Utilizados
+## Algoritmo Perceptron
 
-- **Árvore de Cisão**: Modelo baseado em regras de decisão.
-- **KNN (K-Nearest Neighbors)**: Algoritmo baseado em proximidade.
-- **MLP (Multi-Layer Perceptron)**: Rede neural artificial.
+O Perceptron é um algoritmo de aprendizado de máquina supervisionado usado para classificação binária. A versão não linear utiliza técnicas adicionais para lidar com dados que não são linearmente separáveis.
 
 ## Contribuição
 
